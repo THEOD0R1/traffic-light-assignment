@@ -29,6 +29,7 @@ button {
   border-radius: 4px;
   font-size: 1.25rem;
   border: none;
+  cursor: pointer;
 }
 #stop {
   background-color: red;
