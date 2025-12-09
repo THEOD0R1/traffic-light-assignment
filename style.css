@@ -2,6 +2,7 @@ body {
   width: 100%;
   flex-direction: column;
   display: flex;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   min-height: 100svh;
@@ -21,4 +22,20 @@ body {
   aspect-ratio: 1/1;
   background-color: gray;
   border-radius: 100000px;
+}
+button {
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  border: none;
+}
+#stop {
+  background-color: red;
+}
+#wait {
+  background-color: orange;
+}
+#go {
+  background-color: green;
 }
